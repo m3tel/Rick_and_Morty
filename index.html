@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick and Morty</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <section class="header">
+        <div class="container">
+          <h1 class="header__title">The Rick and Morty</h1>
+          <p class="header__subtitle">
+            Find out information about your character
+          </p>
+          <form class="form" action="#">
+            <div class="form__name">
+              <span class="form__info">Name</span>
+              <input
+                class="form__input"
+                type="text"
+                id="input"
+                placeholder="Rick Sanchez"
+              />
+            </div>
+            <div class="form__species">
+              <span class="form__info">Species</span>
+              <select class="form__select" name="species" id="species">
+                <option value="Human">Human</option>
+                <option value="Alien">Alien</option>
+              </select>
+            </div>
+          </form>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="main">
+        <div class="container">
+          <div class="grid"></div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__name">With ❤️ by m3tel</p>
+    </footer>
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
